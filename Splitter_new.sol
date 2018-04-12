@@ -20,7 +20,7 @@ contract Splitter{
 	    owner=msg.sender;
 	    bob=add1;
 	    carol=add2;
-	}
+	} 
 	
 	function split(address rec1, address rec2) payable returns (bool success){
 	    
